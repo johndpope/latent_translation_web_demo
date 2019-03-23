@@ -1,4 +1,4 @@
-# Latent Trans
+# Latent Translation Web Demo
 
 A possible web-based demo of the latent translation paper.
 
