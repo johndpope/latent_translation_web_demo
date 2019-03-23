@@ -15,6 +15,7 @@ Current state: train both sketch-rnn and music-vae. The reason not to use pre-tr
 ### Train sketch-rnn
 
 It seems that the default model is trained with `z_size=128`. Besides reproduce David's work on `aaron_sheep` dataset, we also play with the correct way to get model with `z_size=256` by tuning correctly the KL-related hyper-parameters.
+The turning involves halfing and doubling the KL-related terms. Luckily, all KL-related terms in Sketch RNN code are for mean of all instances in a batch (see Eq. 10 in the paper).
 
 ## Technical Notes
 
