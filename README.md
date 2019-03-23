@@ -29,6 +29,7 @@ The turning involves halfing and doubling the KL-related terms. Luckily, all KL-
 ### Online resources
 
 - Sketch-RNN
+  - Paper: <https://arxiv.org/abs/1704.03477>
   - Code: <https://github.com/tensorflow/magenta/tree/master/magenta/models/sketch_rnn>
   - Jupyter notebook for inference: <https://github.com/tensorflow/magenta-demos/blob/master/jupyter-notebooks/Sketch_RNN.ipynb>
   - Dataset:
@@ -37,6 +38,7 @@ The turning involves halfing and doubling the KL-related terms. Luckily, all KL-
       - Actually here: <https://console.cloud.google.com/storage/browser/quickdraw_dataset/sketchrnn/>
       - How to download with `gsutil`: <https://stackoverflow.com/questions/39137053/how-to-download-multiple-files-in-google-cloud-storage>
 - Music-VAE
+  - Paper: <https://arxiv.org/abs/1803.05428>
   - Code: <https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae>
   - Colab notebook for inference: <https://colab.research.google.com/notebooks/magenta/music_vae/music_vae.ipynb>
 
